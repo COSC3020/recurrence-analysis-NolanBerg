@@ -57,6 +57,11 @@ might help with the notation for mathematical expressions.
    $= n + 2n^5$
 
 
+4. Big O Bound:
+   
+   $n + 2n^5 \in O(n^5)$
+
+
 
 
 
