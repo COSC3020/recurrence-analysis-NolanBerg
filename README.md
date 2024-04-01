@@ -32,5 +32,9 @@ Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
 
-$T(n) = 1, \text{ if } n \leq 1$
+1. Recurrence Relation:
+
+   $T(n) = 1, \text{ if } n \leq 1$
+   $T(n) = 3T\left(\frac{n}{3}\right) + n^5, \text{ when } n > 1$
+
 
