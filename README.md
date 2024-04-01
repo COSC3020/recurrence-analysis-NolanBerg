@@ -48,7 +48,7 @@ might help with the notation for mathematical expressions.
 
 3. Generalizing:
 
-   $T(n) &= 3^iT\left(\frac{n}{3^i}\right) + 2n^5$  
+   $T(n) = 3^iT\left(\frac{n}{3^i}\right) + 2n^5$  
 
 
 
