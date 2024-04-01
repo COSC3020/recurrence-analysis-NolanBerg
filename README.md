@@ -38,7 +38,7 @@ might help with the notation for mathematical expressions.
    
    $T(n) = 3T\left(\frac{n}{3}\right) + n^5, \text{ when } n > 1$
 
-2. Expanding Recurrence:
+2. Expanding Recurrence Relation:
 
    $T(n) = 3T\left(\frac{n}{3}\right) + n^5$
 
