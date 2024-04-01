@@ -46,7 +46,7 @@ might help with the notation for mathematical expressions.
 
    $= 9T\left(\frac{n}{9}\right) + 3\left(\frac{n^5}{3}\right) + n^5$
 
-   which will lead us will lead us to...
+   which will eventually lead us to...
 
 4. Substitution:
 
