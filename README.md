@@ -42,5 +42,10 @@ might help with the notation for mathematical expressions.
 
    $T(n) = 3T\left(\frac{n}{3}\right) + n^5$
 
+   $= 3\left(3T\left(\frac{n}{9}\right) + \frac{n^5}{3}\right) + n^5$
+
+   $= 9T\left(\frac{n}{9}\right) + 3\left(\frac{n^5}{3}\right) + n^5$
+
+
 
 
