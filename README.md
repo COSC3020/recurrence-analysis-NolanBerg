@@ -32,5 +32,5 @@ Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
 
-$t(n) = 1, \text{ if } n \leq 1$
+$T(n) = 1, \text{ if } n \leq 1$
 
