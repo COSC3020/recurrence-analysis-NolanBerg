@@ -52,7 +52,7 @@ might help with the notation for mathematical expressions.
 
    $T(n) = 3^iT\left(\frac{n}{3^i}\right) + 2n^5$
 
-    $\text{Let } i = \log_3{n}$
+   $\text{Let } i = \log_3{n}$
    
    $= nT(1) + 2n^5$
    
