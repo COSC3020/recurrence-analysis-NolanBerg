@@ -46,6 +46,11 @@ might help with the notation for mathematical expressions.
 
    $= 9T\left(\frac{n}{9}\right) + 3\left(\frac{n^5}{3}\right) + n^5$
 
+3. Generalizing:
+
+   $T(n) &= 3^iT\left(\frac{n}{3^i}\right) + 2n^5$  
+
+
 
 
 
