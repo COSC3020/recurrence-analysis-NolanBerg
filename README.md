@@ -46,9 +46,16 @@ might help with the notation for mathematical expressions.
 
    $= 9T\left(\frac{n}{9}\right) + 3\left(\frac{n^5}{3}\right) + n^5$
 
-3. Generalizing:
+3. Substitution:
 
-   $T(n) = 3^iT\left(\frac{n}{3^i}\right) + 2n^5$  
+   $T(n) = 3^iT\left(\frac{n}{3^i}\right) + 2n^5$
+
+    $\text{Let } i &= \log_3{n}$
+   
+   $= nT(1) + 2n^5$
+   
+   $= n + 2n^5$
+
 
 
 
