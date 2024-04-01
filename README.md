@@ -63,6 +63,7 @@ might help with the notation for mathematical expressions.
    
    $n + 2n^5 \in O(n^5)$
 
+Answer:  $T(n) \in O(n^5)$
 
 
 
