@@ -46,7 +46,9 @@ might help with the notation for mathematical expressions.
 
    $= 9T\left(\frac{n}{9}\right) + 3\left(\frac{n^5}{3}\right) + n^5$
 
-3. Substitution:
+   which will lead us will lead us to...
+
+4. Substitution:
 
    $T(n) = 3^iT\left(\frac{n}{3^i}\right) + 2n^5$
 
@@ -57,7 +59,7 @@ might help with the notation for mathematical expressions.
    $= n + 2n^5$
 
 
-4. Big O Bound:
+5. Big O Bound:
    
    $n + 2n^5 \in O(n^5)$
 
