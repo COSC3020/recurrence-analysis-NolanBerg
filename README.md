@@ -50,7 +50,9 @@ might help with the notation for mathematical expressions.
 
 4. Substitution:
 
-   $T(n) = 3^iT\left(\frac{n}{3^i}\right) + 2n^5$
+   As j grows we can assume n^5...
+   
+   $T(n) = 3^iT\left(\frac{n}{3^i}\right) + n^5$
 
    $\text{Let } i = \log_3{n}$
    
@@ -59,7 +61,7 @@ might help with the notation for mathematical expressions.
    $= n + 2n^5$
 
 
-5. Big O Bound:
+4. Big O Bound:
    
    $n + 2n^5 \in O(n^5)$
 
