@@ -50,6 +50,8 @@ might help with the notation for mathematical expressions.
 
 4. Substitution:
 
+   $= 3^i T\left(\frac{n}{3^i}\right) + \sum_{j=0}^{i-1} 3^j \left(\frac{n}{3^j}\right)^5$
+
    As j grows we can assume n^5...
    
    $T(n) = 3^iT\left(\frac{n}{3^i}\right) + n^5$
