@@ -54,7 +54,7 @@ might help with the notation for mathematical expressions.
 
    Each term in sum represents the contribution of the loops inside the function, considering sizes of $n$ as we go through recursion. At each level of recursion we iterate over a similar structure with a smaller value of    $n$ due to recursive division by 3.
 
-   As we reach the base case $T(1)$, the terms in sum become $1^5 = 1$because the value of $n$ becomes $1$. So, summing up all these terms approximates to \( n^5 \).
+   As we reach the base case $T(1)$, the terms in sum become $1^5 = 1$ because the value of $n$ becomes $1$. So, summing up all these terms approximates to \( n^5 \).
 
    Express $T(n)$ as:
 
