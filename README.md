@@ -58,7 +58,7 @@ might help with the notation for mathematical expressions.
 
    Express $T(n)$ as:
 
-   T(n) = 3^i T(1) + \sum_{j=0}^{i-1} 3^j \left(\frac{n}{3^j}\right)^5$
+   $T(n) = 3^i T(1) + \sum_{j=0}^{i-1} 3^j \left(\frac{n}{3^j}\right)^5$
 
    $= nT(1) + \text{terms that approximate to } n^5$
 
