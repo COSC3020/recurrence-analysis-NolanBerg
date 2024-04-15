@@ -52,7 +52,17 @@ might help with the notation for mathematical expressions.
 
    $= 3^i T\left(\frac{n}{3^i}\right) + \sum_{j=0}^{i-1} 3^j \left(\frac{n}{3^j}\right)^5$
 
-   As j grows we can assume n^5...
+   Each term in sum represents the contribution of the loops inside the function, considering sizes of $n$ as we go through recursion. At each level of recursion we iterate over a similar structure with a smaller value of    $n$ due to recursive division by 3.
+
+   As we reach the base case $T(1)$, the terms in sum become $1^5 = 1$because the value of $n$ becomes $1$. So, summing up all these terms approximates to \( n^5 \).
+
+   Express $T(n)$ as:
+
+   T(n) = 3^i T(1) + \sum_{j=0}^{i-1} 3^j \left(\frac{n}{3^j}\right)^5$
+
+   $= nT(1) + \text{terms that approximate to } n^5$
+
+   $= n + \text{terms that approximate to } n^5$
    
    $T(n) = 3^iT\left(\frac{n}{3^i}\right) + n^5$
 
@@ -69,7 +79,7 @@ might help with the notation for mathematical expressions.
 
    $T(n) \in O(n^5)$
 
-Sources: Used google to make the recurrence relation
+Sources: Used google/ai to make the recurrence relation
 
 
 
